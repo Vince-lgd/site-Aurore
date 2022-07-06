@@ -1,0 +1,60 @@
+.home {
+  display: flex;
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    img {
+      width: 93%;
+      object-fit: cover;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: aliceblue;
+      background-color: rgb(149, 97, 92);
+      margin-top: 10rem;
+      width: 60%;
+      flex-direction: column;
+      font-family: "Amatic SC";
+      font-family: "open sans";
+      text-align: center;
+      font-size: 3rem;
+      &__dec {
+        display: flex;
+        position: absolute;
+        margin-top: 14rem;
+        a {
+          list-style: none;
+          color: aliceblue;
+          text-decoration: none;
+          margin-top: 4rem;
+          font-size: 2rem;
+          &:hover {
+            transform: scale(1.2);
+            color: rgb(233, 179, 2);
+          }
+        }
+      }
+    }
+  }
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 3rem;
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+}
